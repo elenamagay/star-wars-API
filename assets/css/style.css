@@ -3,14 +3,30 @@ body{
     background-position: left top;
     background-repeat: repeat;
 }
-/* 
+
 .info{
-    margin-right: 10%;
-} */
+    /* background-color: rgb(187, 237, 221); */
+    margin-right: 20%;
+    opacity: 0.7; 
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+    color: rgb(29, 0, 174);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
 
 #details{
     margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
     background-color: rgb(187, 237, 221);
+    font-weight: bolder;
 }
 
 
@@ -27,6 +43,6 @@ body{
 
 #characters, #films{
     font-size: large;
-    font-family: fantasy;
+    font-family: fantasy;    
     color: rgb(202, 202, 10);
 }
