@@ -17,8 +17,8 @@ h1{
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    margin-top: 1%;
-    margin-bottom: 2%;
+    text-shadow: 4px 4px 8px rgb(6, 1, 30);
+    margin-top: 4%;
 }
 
 #details{
@@ -26,12 +26,16 @@ h1{
     margin-right: 20%;
     margin-bottom: 10%;
     background-color: rgb(187, 237, 221);
+    color: rgb(29, 0, 174);
     font-weight: bolder;
+    box-shadow: 4px 4px 8px rgb(25, 73, 58);
+    border-radius: 8px;
 }
 
 
 .navbar-light:hover{
-    background-color: azure;
+    background-color: whitesmoke;
+    opacity: 0.9;
 }
 
 .navbar-name{
@@ -39,10 +43,13 @@ h1{
     font-family: fantasy;
     font-weight: bold;
     color: rgb(202, 202, 10);
+    text-shadow: 4px 4px 8px black;
 }
 
-#characters, #films{
+#characters, #films, #planets{
     font-size: large;
     font-family: fantasy;    
     color: rgb(202, 202, 10);
+    text-shadow: 4px 4px 8px black;
 }
+
