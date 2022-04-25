@@ -1,0 +1,32 @@
+body{
+    background: url('../images/star-wars-image.jpg');
+    background-position: left top;
+    background-repeat: repeat;
+}
+/* 
+.info{
+    margin-right: 10%;
+} */
+
+#details{
+    margin-left: 20%;
+    background-color: rgb(187, 237, 221);
+}
+
+
+.navbar-light:hover{
+    background-color: azure;
+}
+
+.navbar-name{
+    font-size: xx-large;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(202, 202, 10);
+}
+
+#characters, #films{
+    font-size: large;
+    font-family: fantasy;
+    color: rgb(202, 202, 10);
+}

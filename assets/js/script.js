@@ -11,7 +11,7 @@ document.getElementById("characters").addEventListener("click", getCharacters =>
         .then (response => response.json())
         .then (r => r.results.forEach(element => {
             tab +=
-            `<div class"container">  
+            `<div class="container-fluid">  
                 <div>Name: ${element.name}</div>
                 <div>Height: ${element.height}</div>
                 <div>Mass: ${element.mass}</div>
@@ -31,7 +31,7 @@ document.getElementById("films").addEventListener("click", getFilms => {
         .then (response => response.json())
         .then (r => r.results.forEach(element => {
             tab +=
-            `<div class"container">  
+            `<div class="container">  
                 <div>Title: ${element.title}</div>
                 <div>Number of the Episode: ${element.episode_id}</div>
                 <div>Director: ${element.director}</div>
